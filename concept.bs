@@ -20,3 +20,5 @@ end
 Comments can also work like this.
 
 <
+
+> My idea for Bubble Script is that it is simple to use and make it have a lot of posibilities. <
