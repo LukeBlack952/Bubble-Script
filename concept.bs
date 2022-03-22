@@ -5,6 +5,7 @@ print("Bubble Script Concept")
 
 system do
   var file = create.file(lua)
+  file.parent = self.parent
   file.content is
     print("This LUA file was written in BubbleScript!")
     wait(1)
