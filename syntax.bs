@@ -1,0 +1,21 @@
+import(plugin) multipleLanguages
+import(theme) customTheme1
+
+print("Bubble Script Concept")
+
+system do
+  var file = create.file(lua)
+  file.content is
+    print("This LUA file was written in BubbleScript!")
+    wait(1)
+    script:Destroy()
+  end
+end
+
+> Comment <
+
+>
+
+Comments can also work like this.
+
+<
